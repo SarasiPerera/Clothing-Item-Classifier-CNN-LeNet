@@ -103,6 +103,8 @@ st.markdown("""
 
   [data-testid="stFileUploader"] > div { border-radius: 12px !important; }
   [data-testid="stSidebar"] { background: #f8f9fb; }
+            
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -115,6 +117,32 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
+st.markdown("""
+<style>
+  /* Sidebar background */
+  [data-testid="stSidebar"] {
+    background: #f8f9fb;
+  }
+
+  /* Sidebar text color */
+  [data-testid="stSidebar"] * {
+    color: #1a3a6b !important;
+  }
+
+  /* Sidebar headings */
+  [data-testid="stSidebar"] h1,
+  [data-testid="stSidebar"] h2,
+  [data-testid="stSidebar"] h3 {
+    color: #0f3460 !important;
+  }
+
+  /* Sidebar labels (like uploader text etc.) */
+  [data-testid="stSidebar"] label {
+    color: #1a3a6b !important;
+  }
+</style>
+""", unsafe_allow_html=True)
+
 with st.sidebar:
     st.markdown("### About")
     st.write(
