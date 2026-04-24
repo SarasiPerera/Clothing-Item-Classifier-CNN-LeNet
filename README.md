@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ### 2. Train the model
 Open and run all cells in the Jupyter notebook:
 ```bash
-jupyter notebook fashion_mnist_lenet5.ipynb
+jupyter notebook notebook/fashion_mnist_lenet5.ipynb
 ```
 This will produce `best_lenet5_fashion.keras` in the same folder.
 
